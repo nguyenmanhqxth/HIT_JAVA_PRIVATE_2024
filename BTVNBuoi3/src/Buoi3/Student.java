@@ -72,4 +72,5 @@ public class Student {
         return String.format("StudentCode: %s\nFull Name: %s\nAge: %s\nGender: %s\nPhone Number: %s",
                 studentCode, fullName, age, gender, phoneNumber, email);
     }
+
 }

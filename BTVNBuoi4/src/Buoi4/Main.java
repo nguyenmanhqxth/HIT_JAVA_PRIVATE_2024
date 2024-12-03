@@ -8,11 +8,12 @@ public class Main {
         ArrayList<Book> books = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
 
-        books.add(new Book(1, "Sách 1", "Tác giả A", 2222, "Tóm tắt nội dung 1", 100.0));
-        books.add(new Book(2, "Sách 2", "Tác giả B", 3333, "Tóm tắt nội dung 2", 150.0));
-        books.add(new Book(3, "Sách 3", "Tác giả C", 1111, "Tóm tắt nội dung 3", 200.0));
-        books.add(new Book(4, "Sách 4", "Tác giả D", 4444, "Tóm tắt nội dung 4", 250.0));
-        books.add(new Book(5, "Sách 5", "Tác giả E", 5555, "Tóm tắt nội dung 5", 300.0));
+
+        books.add(new Book(1, "Sách 1", new TacGia("Tác giả A"), 2222, "Tóm tắt nội dung 1", 100.0));
+        books.add(new Book(2, "Sách 2", new TacGia("Tác giả B"), 3333, "Tóm tắt nội dung 2", 150.0));
+        books.add(new Book(3, "Sách 3", new TacGia("Tác giả C"), 1111, "Tóm tắt nội dung 3", 200.0));
+        books.add(new Book(4, "Sách 4", new TacGia("Tác giả D"), 4444, "Tóm tắt nội dung 4", 250.0));
+        books.add(new Book(5, "Sách 5", new TacGia("Tác giả E"), 5555, "Tóm tắt nội dung 5", 300.0));
 
 
             System.out.println("Menu:");
@@ -63,7 +64,7 @@ public class Main {
         System.out.print("Nhập giá tiền: ");
         double giaTien = sc.nextDouble();
 
-        books.add(new Book(maSach, tenSach, tenTacGia, namSanXuat, tomTatNoiDung, giaTien));
+        books.add(new Book(maSach, tenSach, new TacGia( tenTacGia) , namSanXuat, tomTatNoiDung, giaTien));
         System.out.println("Đã thêm sách mới thành công!");
         printBooks(books);
     }
@@ -79,7 +80,7 @@ public class Main {
                 System.out.print("Nhập tên sách mới: ");
                 book.setTenSach(sc.nextLine());
                 System.out.print("Nhập tên tác giả mới: ");
-                book.setTenTacGia(sc.nextLine());
+                book.setTg(sc.nextLine());
                 System.out.print("Nhập năm sản xuất mới: ");
                 book.setNamSanXuat(sc.nextInt());
                 sc.nextLine();
@@ -114,4 +115,6 @@ public class Main {
         System.out.println("Cuốn sách lâu đời cổ kính nhất là:");
         oldestBook.display();
     }
+
 }
+

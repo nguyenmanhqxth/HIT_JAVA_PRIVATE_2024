@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="735d023e-f4c2-479a-809f-7b45a84253a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Bai1.java" afterDir="false" />
+    <list default="true" id="3fa83fad-e713-423a-900b-6729bd20fd27" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/HIT_JAVA_PRIVATE_2024.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVNBUOI2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVNBuoi3/src/Buoi3/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVNBuoi3/src/Buoi3/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVNBuoi4/src/Buoi4/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVNBuoi4/src/Buoi4/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVNBuoi4/src/Buoi4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVNBuoi4/src/Buoi4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVNBuoi4/src/Buoi4/TacGia.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVNBuoi4/src/Buoi4/TacGia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTVNBuoi4/src/Buoi4/TruongCoTich.java" beforeDir="false" afterPath="$PROJECT_DIR$/BTVNBuoi4/src/Buoi4/TruongCoTich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,31 +31,80 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
+  &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="2nluvA6XleopnTkfIwpgXVeWYR9" />
+  <component name="ProjectId" id="2o6K8C0hBt4WKmaHnpmoPsY2esP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Bai1.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/HIT_JAVA_PRIVATE_2024"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Bai1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Bai2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Bai3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Bai4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassRoom.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxSubarraySum.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/HIT_JAVA_PRIVATE_2024&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/HIT_JAVA_PRIVATE_2024/BTVNBuoi5/src/Main.java&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="HIT_JAVA_PRIVATE_2024" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="HIT_JAVA_PRIVATE_2024" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="735d023e-f4c2-479a-809f-7b45a84253a2" name="Changes" comment="" />
-      <created>1729560211621</created>
+      <changelist id="3fa83fad-e713-423a-900b-6729bd20fd27" name="Changes" comment="" />
+      <created>1730184423648</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1729560211621</updated>
+      <updated>1730184423648</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/BTVNBuoi2/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

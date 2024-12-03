@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BTVNBuoi2/BTVNBuoi2.iml" filepath="$PROJECT_DIR$/BTVNBuoi2/BTVNBuoi2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BTVNBuoi3/BTVNBuoi3.iml" filepath="$PROJECT_DIR$/BTVNBuoi3/BTVNBuoi3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BTVNBuoi4/BTVNBuoi4.iml" filepath="$PROJECT_DIR$/BTVNBuoi4/BTVNBuoi4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BTVNBuoi5/BTVNBuoi5.iml" filepath="$PROJECT_DIR$/BTVNBuoi5/BTVNBuoi5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HIT_JAVA_PRIVATE_2024.iml" filepath="$PROJECT_DIR$/HIT_JAVA_PRIVATE_2024.iml" />
+    </modules>
+  </component>
+</project>

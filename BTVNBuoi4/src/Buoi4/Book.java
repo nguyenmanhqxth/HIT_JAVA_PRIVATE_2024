@@ -1,20 +1,22 @@
 package Buoi4;
 
 public class Book {
-    private int maSach;
-    private String tenSach;
-    private String tenTacGia;
-    private int namSanXuat;
-    private String tomTatNoiDung;
-    private double giaTien;
+    protected int maSach;
+    protected String tenSach;
+    protected TacGia tg;
+    protected int namSanXuat;
+    protected String tomTatNoiDung;
+    protected double giaTien;
+
+
 
     public Book() {
     }
 
-    public Book(int maSach, String tenSach, String tenTacGia, int namSanXuat, String tomTatNoiDung, double giaTien) {
+    public Book(int maSach, String tenSach, TacGia tg, int namSanXuat, String tomTatNoiDung, double giaTien) {
         this.maSach = maSach;
         this.tenSach = tenSach;
-        this.tenTacGia = tenTacGia;
+        this.tg = tg;
         this.namSanXuat = namSanXuat;
         this.tomTatNoiDung = tomTatNoiDung;
         this.giaTien = giaTien;
@@ -36,12 +38,12 @@ public class Book {
         this.tenSach = tenSach;
     }
 
-    public String getTenTacGia() {
-        return tenTacGia;
+    public TacGia getTg() {
+        return tg;
     }
 
-    public void setTenTacGia(String tenTacGia) {
-        this.tenTacGia = tenTacGia;
+    public void setTg(TacGia tg) {
+        this.tg = tg;
     }
 
     public int getNamSanXuat() {
@@ -73,7 +75,7 @@ public class Book {
         return "Book{" +
                 "maSach=" + maSach +
                 ", tenSach='" + tenSach + '\'' +
-                ", tenTacGia='" + tenTacGia + '\'' +
+                ", tenTacGia='" + tg.getTenTG() + '\'' +
                 ", namSanXuat=" + namSanXuat +
                 ", tomTatNoiDung='" + tomTatNoiDung + '\'' +
                 ", giaTien=" + giaTien +
@@ -82,4 +84,8 @@ public class Book {
     public void display(){
         System.out.println(toString());
     }
+
+    public void setTg(String s) {
+    }
+
 }
